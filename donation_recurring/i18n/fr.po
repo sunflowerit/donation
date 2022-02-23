@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-17 22:43+0000\n"
+"POT-Creation-Date: 2022-02-23 17:49+0000\n"
 "PO-Revision-Date: 2015-02-17 22:43+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
@@ -22,12 +22,12 @@ msgid "Active"
 msgstr "Active"
 
 #. module: donation_recurring
-#: model:ir.ui.view,arch_db:donation_recurring.donation_search
+#: model_terms:ir.ui.view,arch_db:donation_recurring.donation_search
 msgid "Active Recurring Template"
 msgstr "Active Recurring Template"
 
 #. module: donation_recurring
-#: code:addons/donation_recurring/models/donation.py:82
+#: code:addons/donation_recurring/models/donation.py:81
 #, python-format
 msgid ""
 "As it is a recurring donation, the Tax Receipt Option has been changed from "
@@ -35,35 +35,35 @@ msgid ""
 msgstr ""
 
 #. module: donation_recurring
-#: model:ir.ui.view,arch_db:donation_recurring.donation_recurring_generate_form
+#: model_terms:ir.ui.view,arch_db:donation_recurring.donation_recurring_generate_form
 msgid "Cancel"
 msgstr "Cancel"
 
 #. module: donation_recurring
-#: code:addons/donation_recurring/models/donation.py:70
+#: code:addons/donation_recurring/models/donation.py:69
 #, fuzzy, python-format
 msgid "Cancelled Donation of %s"
 msgstr "Draft Donation of %s"
 
 #. module: donation_recurring
-#: model:ir.model.fields,field_description:donation_recurring.field_donation_recurring_generate_create_uid
+#: model:ir.model.fields,field_description:donation_recurring.field_donation_recurring_generate__create_uid
 msgid "Created by"
 msgstr "Created by"
 
 #. module: donation_recurring
-#: model:ir.model.fields,field_description:donation_recurring.field_donation_recurring_generate_create_date
+#: model:ir.model.fields,field_description:donation_recurring.field_donation_recurring_generate__create_date
 msgid "Created on"
 msgstr "Created on"
 
 #. module: donation_recurring
-#: model:ir.model.fields,field_description:donation_recurring.field_donation_recurring_generate_date
+#: model:ir.model.fields,field_description:donation_recurring.field_donation_recurring_generate__date
 msgid "Date"
 msgstr "Date"
 
 #. module: donation_recurring
-#: model:ir.model.fields,field_description:donation_recurring.field_donation_recurring_generate_display_name
+#: model:ir.model.fields,field_description:donation_recurring.field_donation_recurring_generate__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Nom affiché"
 
 #. module: donation_recurring
 #: model:ir.model,name:donation_recurring.model_donation_donation
@@ -72,18 +72,18 @@ msgid "Donation"
 msgstr "Dons"
 
 #. module: donation_recurring
-#: code:addons/donation_recurring/models/donation.py:68
+#: code:addons/donation_recurring/models/donation.py:67
 #, python-format
 msgid "Draft Donation of %s"
 msgstr "Draft Donation of %s"
 
 #. module: donation_recurring
-#: model:ir.ui.view,arch_db:donation_recurring.donation_search
+#: model_terms:ir.ui.view,arch_db:donation_recurring.donation_search
 msgid "From Recurring"
 msgstr "From Recurring"
 
 #. module: donation_recurring
-#: model:ir.ui.view,arch_db:donation_recurring.donation_recurring_generate_form
+#: model_terms:ir.ui.view,arch_db:donation_recurring.donation_recurring_generate_form
 msgid "Generate"
 msgstr "Generate"
 
@@ -91,48 +91,48 @@ msgstr "Generate"
 #: model:ir.actions.act_window,name:donation_recurring.donation_recurring_generate_action
 #: model:ir.model,name:donation_recurring.model_donation_recurring_generate
 #: model:ir.ui.menu,name:donation_recurring.donation_recurring_generate_menu
-#: model:ir.ui.view,arch_db:donation_recurring.donation_recurring_generate_form
+#: model_terms:ir.ui.view,arch_db:donation_recurring.donation_recurring_generate_form
 msgid "Generate Recurring Donations"
 msgstr "Generate Recurring Donations"
 
 #. module: donation_recurring
-#: model:ir.ui.view,arch_db:donation_recurring.donation_form
+#: model_terms:ir.ui.view,arch_db:donation_recurring.donation_form
 msgid "History"
 msgstr "History"
 
 #. module: donation_recurring
-#: model:ir.model.fields,field_description:donation_recurring.field_donation_recurring_generate_id
+#: model:ir.model.fields,field_description:donation_recurring.field_donation_recurring_generate__id
 msgid "ID"
 msgstr "ID"
 
 #. module: donation_recurring
-#: model:ir.model.fields,field_description:donation_recurring.field_donation_recurring_generate___last_update
+#: model:ir.model.fields,field_description:donation_recurring.field_donation_recurring_generate____last_update
 #, fuzzy
 msgid "Last Modified on"
 msgstr "Last Updated on"
 
 #. module: donation_recurring
-#: model:ir.model.fields,field_description:donation_recurring.field_donation_recurring_generate_write_uid
+#: model:ir.model.fields,field_description:donation_recurring.field_donation_recurring_generate__write_uid
 msgid "Last Updated by"
 msgstr "Last Updated by"
 
 #. module: donation_recurring
-#: model:ir.model.fields,field_description:donation_recurring.field_donation_recurring_generate_write_date
+#: model:ir.model.fields,field_description:donation_recurring.field_donation_recurring_generate__write_date
 msgid "Last Updated on"
 msgstr "Last Updated on"
 
 #. module: donation_recurring
-#: model:ir.model.fields,field_description:donation_recurring.field_donation_donation_recurring_donation_ids
+#: model:ir.model.fields,field_description:donation_recurring.field_donation_donation__recurring_donation_ids
 msgid "Past Recurring Donations"
 msgstr "Past Recurring Donations"
 
 #. module: donation_recurring
-#: model:ir.model.fields,field_description:donation_recurring.field_donation_recurring_generate_payment_ref
+#: model:ir.model.fields,field_description:donation_recurring.field_donation_recurring_generate__payment_ref
 msgid "Payment Reference"
 msgstr "Payment Reference"
 
 #. module: donation_recurring
-#: code:addons/donation_recurring/models/donation.py:62
+#: code:addons/donation_recurring/models/donation.py:61
 #, python-format
 msgid "Recurring Donation of %s"
 msgstr "Recurring Donation of %s"
@@ -144,18 +144,18 @@ msgid "Recurring Donations"
 msgstr "Recurring Donations"
 
 #. module: donation_recurring
-#: model:ir.model.fields,field_description:donation_recurring.field_donation_donation_recurring_template
+#: model:ir.model.fields,field_description:donation_recurring.field_donation_donation__recurring_template
 msgid "Recurring Template"
 msgstr "Recurring Template"
 
 #. module: donation_recurring
-#: code:addons/donation_recurring/wizard/donation_recurring_generate.py:43
+#: code:addons/donation_recurring/wizard/donation_recurring_generate.py:42
 #, python-format
 msgid "Recurring donations have already been generated for %s."
 msgstr "Recurring donations have already been generated for %s."
 
 #. module: donation_recurring
-#: model:ir.model.fields,field_description:donation_recurring.field_donation_donation_source_recurring_id
+#: model:ir.model.fields,field_description:donation_recurring.field_donation_donation__source_recurring_id
 msgid "Source Recurring Template"
 msgstr "Source Recurring Template"
 
@@ -165,18 +165,18 @@ msgid "Suspended"
 msgstr "Suspended"
 
 #. module: donation_recurring
-#: code:addons/donation_recurring/models/donation.py:65
+#: code:addons/donation_recurring/models/donation.py:64
 #, python-format
 msgid "Suspended Recurring Donation of %s"
 msgstr "Suspended Recurring Donation of %s"
 
 #. module: donation_recurring
-#: model:ir.ui.view,arch_db:donation_recurring.donation_search
+#: model_terms:ir.ui.view,arch_db:donation_recurring.donation_search
 msgid "Suspended Recurring Template"
 msgstr "Suspended Recurring Template"
 
 #. module: donation_recurring
-#: code:addons/donation_recurring/models/donation.py:51
+#: code:addons/donation_recurring/models/donation.py:50
 #, fuzzy, python-format
 msgid "The recurring donation of %s cannot have a tax receipt option 'Each'."
 msgstr ""
@@ -184,7 +184,7 @@ msgstr ""
 "Template"
 
 #. module: donation_recurring
-#: code:addons/donation_recurring/models/donation.py:44
+#: code:addons/donation_recurring/models/donation.py:43
 #, python-format
 msgid ""
 "The recurring donation template of '%s' cannot have a Source Recurring "
@@ -194,13 +194,13 @@ msgstr ""
 "Template"
 
 #. module: donation_recurring
-#: code:addons/donation_recurring/models/donation.py:40
+#: code:addons/donation_recurring/models/donation.py:39
 #, python-format
 msgid "The recurring donation template of '%s' must stay in draft state."
 msgstr "The recurring donation template of '%s' must stay in draft state."
 
 #. module: donation_recurring
-#: code:addons/donation_recurring/models/donation.py:81
+#: code:addons/donation_recurring/models/donation.py:80
 #, python-format
 msgid "Update of Tax Receipt Option"
 msgstr ""
